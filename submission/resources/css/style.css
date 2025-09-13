@@ -1,0 +1,98 @@
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.main-buttons{
+    display: inline-block;
+}
+
+.main-icon{
+    float: right;
+}
+
+.nav-bar{
+    background-color:palevioletred;
+    height: 30px;
+}
+
+.nav-button{
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.desc-img{
+    padding: 20px;
+    display: flex;
+    place-items: center;
+    width: 100%;
+}
+
+.personal-img{
+    display: inline-block;
+}
+
+.short-desc{
+    display: block;
+    text-align: center;
+    background-color: pink;
+    margin-left: 10px;
+    padding: 5%;
+    width: 100%;
+}
+
+.footer{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 2%;
+}
+
+.social-icon{
+    margin-left: 5px;
+}
+
+.hobbies-cards{
+    display: grid;
+    margin: 20px;
+    gap: 10px;
+    grid-auto-flow: column;
+}
+
+.hobby-card{
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.projects{
+    display: grid;
+    margin: 20px;
+    gap: 10px;
+    grid-auto-flow:row;
+}
+
+.project-card{
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.accordion-body{
+    display: flex;
+    place-items: center;
+}
+
+.heading{
+    margin-left: 10px;
+}
+
+.resume-body{
+    margin-left: 25px;
+}
+
+.resume-title{
+    text-align: center;
+}
